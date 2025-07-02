@@ -2,6 +2,7 @@ import streamlit as st
 import random
 import google.generativeai as genai
 from games import memory_game, reaction_game
+import time
 
 # Configure Gemini
 genai.configure(api_key=st.secrets["API_KEY"])
