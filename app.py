@@ -4,7 +4,7 @@ import google.generativeai as genai
 from games import memory_game, reaction_game
 
 # Configure Gemini
-genai.configure(api_key="YOUR_GEMINI_API_KEY")
+genai.configure(api_key=st.secrets["API_KEY"])
 model = genai.GenerativeModel("gemini-pro")
 
 st.title("🧠 Cognitive Brain Fitness Trainer")
