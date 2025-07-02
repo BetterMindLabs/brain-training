@@ -6,7 +6,7 @@ import time
 
 # Configure Gemini
 genai.configure(api_key=st.secrets["API_KEY"])
-model = genai.GenerativeModel("gemini-pro")
+model = genai.GenerativeModel("gemini-2.5-flash")
 
 st.title("🧠 Cognitive Brain Fitness Trainer")
 
